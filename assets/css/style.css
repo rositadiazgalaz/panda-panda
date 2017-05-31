@@ -8,3 +8,111 @@ nav{
 	background-color: #D72929;
 	overflow: hidden;
 }
+.menu{
+	margin-left: 6rem;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	color:#E99964;
+	text-decoration: none;
+	padding: 2rem;
+	font-weight: 500;
+}
+.menu li a:hover{
+	color:#F3913A;
+	background-color: #E74F4F;
+}
+/* seccion fotos con x de pandas*/
+.pictures-pandas{
+	text-align: center;
+	margin-top: 3rem;
+
+}
+.pandas{
+	width: 200px;
+	height: 200px;
+	border:1px solid #690B0B;
+	display: inline-block;
+	background-size: cover;
+	background-position: center;
+	margin: 0 1rem;
+}
+.panda1{
+	background-image: url(../img/panda1.jpg);
+}
+.panda2{
+	background-image: url(../img/panda2.jpg);
+}
+.panda3{
+	background-image: url(../img/panda3.jpg);
+}
+.panda4{
+	background-image: url(../img/panda4.jpg);
+}
+/* editando el icono X*/
+.fa-times{
+	color:#E1D7D7;
+	float: right;
+	padding: 0.3rem;
+	cursor: pointer;
+}
+.fa-times:hover{
+	color:#CC1818;
+}
+/* seccion de botones*/
+#botones{
+	text-align: center;
+}
+.boton{
+	display: inline-block;
+	width: 19rem;
+	height: 2rem;
+	background-color: #A43A3A;
+	cursor: pointer;
+	margin-top: 1rem;
+}
+.boton:hover{
+	background-color: #842222;
+}
+.boton p:hover{
+	color: #fff;
+}
+.boton p{
+	margin: 0;
+	padding-top: 0.5rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+/* seccion parrafos*/
+.parrafos{
+	text-align: center;
+	padding: 0 8.5rem;
+}
+.parrafos{
+	width: 1000px;
+	text-align: justify;
+	display: inline-block;
+	margin: 0 1rem;
+	color:#787274;
+	font-weight: 400;
+	font-size: 14px; 
+}
+.parrafo-uno{
+
+	width: 440px;
+	text-align: justify;
+	display: inline-block;
+	margin: 0 1rem;
+	color: #717074;
+	float: left;
+}
+.parrafo-dos{
+	width: 440px;
+	text-align: justify;
+	display: inline-block;
+	margin: 0 1rem;
+	color: #717074;
+	float: right;
+}
